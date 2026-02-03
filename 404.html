@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting...</title>
+    <script>
+      var path = window.location.pathname;
+      var newUrl =
+        window.location.origin +
+        "/doctors-appointment/#" +
+        path.replace("/doctors-appointment", "");
+      window.location.replace(newUrl);
+    </script>
+  </head>
+  <body></body>
+</html>
+
